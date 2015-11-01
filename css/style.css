@@ -19,6 +19,10 @@ margin: 20px;
     color: #22282B;
 }
 
+.instructions {
+	margin:20px;
+	font-size: .75em;
+}
 h1 {
 	font-size: 1em;
 	padding: 20px;
