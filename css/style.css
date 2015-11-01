@@ -7,14 +7,14 @@ body {
 	letter-spacing: .02em;
 }
 
-#task-field {
+.task-field {
 height: 50px;
 width: 70%;
 margin: 20px;
 }
 
-#task-field:focus {
-    border-color: #719ECE;
+.task-field:focus {
+    border-color: #D0AB65;;
     box-shadow: 0 0 10px #ebebeb;
     color: #22282B;
 }
@@ -69,7 +69,7 @@ h1 {
 	list-style: none;
 	margin-bottom: 10px;
 	padding: 20px;
-	xheight: 44px;
+	height: 44px;
 }
 
 .item {
@@ -110,8 +110,24 @@ footer {
 	padding: 3px;
 	line-height: 1.25em;
 }
-@media all and (max-width: 360px) {
-	h1 {
-		font-size: .65em;
-	}
+
+header {
+	text-align: center;
+}
+
+hr {
+	background-color: #ebebeb;
+	height: 1px;
+	border: none;
+}
+
+@media screen and (max-width: 460px) {
+	
+    h1 {
+        font-size: .68em;
+    }
+    .count-container {
+	padding: 5px;
+}
+    
 }
