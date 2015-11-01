@@ -1,0 +1,117 @@
+x* {
+	outline: 1px solid pink;
+}
+
+body {
+	font-size: 16px;
+	letter-spacing: .02em;
+}
+
+#task-field {
+height: 50px;
+width: 70%;
+margin: 20px;
+}
+
+#task-field:focus {
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #ebebeb;
+    color: #22282B;
+}
+
+h1 {
+	font-size: 1em;
+	padding: 20px;
+}
+
+.count {
+	font-size: 1.25em;
+}
+
+#todo, #done, #total {
+	font-size: 2em;
+	color: #F7F7F7;
+}
+
+.count-container {
+	padding: 20px;
+}
+
+.left {
+	background-color: #22282B;
+	position: relative;
+	float: left;
+	width: 25%;
+	color: #D0AB65;
+	height: 100%;
+	text-align: center;
+}
+
+.delete {
+	float: right;
+	display: inline-block;
+	font-size: .75em;
+}
+.right {
+	background-color: #F7F7F7;
+	float: left;
+	height: 90%;
+	width: 75%;
+}
+
+.left, .right {
+	min-height: 100vh;
+}
+
+#list .list-item {
+	background-color: #ebebeb;
+	color: #22282B;
+	list-style: none;
+	margin-bottom: 10px;
+	padding: 20px;
+	xheight: 44px;
+}
+
+.item {
+	position: relative;
+  	left: 0;
+  	width: 30%;
+}
+
+#list {
+	width: 100%;
+	height: 90%;
+	outline: 1px;
+	float: left;
+	padding: 0;
+}
+
+.delete {
+	position: relative;
+	background: url('../images/delete.png') no-repeat;
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.checked span.item{
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+.checked {
+	background-color: #709984; 
+}
+
+footer {
+	color: white;
+	font-size: .75em;
+	padding: 3px;
+	line-height: 1.25em;
+}
+@media all and (max-width: 360px) {
+	h1 {
+		font-size: .65em;
+	}
+}
